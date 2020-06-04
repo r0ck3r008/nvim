@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vivien/vim-linux-coding-style'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -40,3 +41,7 @@ let g:syntastic_c_config_file='.syntastic_config'
 let g:airline_theme='simple'
 
 syntax enable
+set encoding=utf-8
+set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
+set hlsearch
+set dir=/tmp
