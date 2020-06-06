@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vivien/vim-linux-coding-style'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'takac/vim-hardtime'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -35,6 +36,9 @@ let g:syntastic_c_config_file='.syntastic_config'
 
 " airline themes
 let g:airline_theme='simple'
+
+" hardtime
+let g:hardtime_default_on = 1
 
 syntax enable
 set encoding=utf-8
