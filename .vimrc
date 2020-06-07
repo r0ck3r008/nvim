@@ -32,7 +32,7 @@ filetype plugin indent on    " required
 " Syntastic config
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_c_config_file='.syntastic_config'
+let g:syntastic_c_config_file='.vim/syntastic_config'
 
 " airline themes
 let g:airline_theme='simple'
