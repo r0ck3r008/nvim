@@ -19,3 +19,6 @@
 [submodule "bundle/vim-hardtime"]
 	path = bundle/vim-hardtime
 	url = https://github.com/takac/vim-hardtime
+[submodule "bundle/golden-ratio"]
+	path = bundle/golden-ratio
+	url = https://github.com/roman/golden-ratio

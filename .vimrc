@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vivien/vim-linux-coding-style'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'takac/vim-hardtime'
+Plugin 'roman/golden-ratio'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
