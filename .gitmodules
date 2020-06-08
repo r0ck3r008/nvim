@@ -19,3 +19,6 @@
 [submodule "bundle/vim-hardtime"]
 	path = bundle/vim-hardtime
 	url = https://github.com/takac/vim-hardtime
+[submodule "extras/vim-theme-papaya"]
+	path = extras/vim-theme-papaya
+	url = https://github.com/henrynewcomer/vim-theme-papaya
