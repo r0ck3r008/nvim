@@ -19,6 +19,3 @@
 [submodule "bundle/vim-hardtime"]
 	path = bundle/vim-hardtime
 	url = https://github.com/takac/vim-hardtime
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = https://github.com/wincent/command-t
