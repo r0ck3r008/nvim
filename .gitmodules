@@ -22,3 +22,6 @@
 [submodule "extras/vim-theme-papaya"]
 	path = extras/vim-theme-papaya
 	url = https://github.com/henrynewcomer/vim-theme-papaya
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
