@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vivien/vim-linux-coding-style'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'takac/vim-hardtime'
+" After each update, run yarn install in git repo of plugin
 Plugin 'iamcco/markdown-preview.nvim'
 
 " All of your Plugins must be added before the following line
