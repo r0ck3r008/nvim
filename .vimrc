@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vivien/vim-linux-coding-style'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'takac/vim-hardtime'
+Plugin 'iamcco/markdown-preview.nvim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -28,6 +29,8 @@ filetype plugin indent on    " required
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+nmap <leader>m :MarkdownPreview<Return>
+nmap <leader>M :MarkdownPreviewStop<Return>
 
 " Syntastic config
 let g:syntastic_check_on_open = 1
