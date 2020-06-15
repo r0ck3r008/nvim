@@ -18,6 +18,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'takac/vim-hardtime'
 " After each update, run yarn install in git repo of plugin
 Plugin 'iamcco/markdown-preview.nvim'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
