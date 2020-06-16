@@ -27,6 +27,8 @@ filetype plugin indent on    " required
 nmap <leader>m :MarkdownPreview<Return>
 nmap <leader>M :MarkdownPreviewStop<Return>
 nmap <leader>a %%a
+nmap <leader>o 2o<Esc>i
+nmap <leader>O 2O<Esc>i
 
 " Gitgutter
 set updatetime=100
