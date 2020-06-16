@@ -28,6 +28,7 @@ filetype plugin indent on    " required
 nmap <leader>m :MarkdownPreview<Return>
 nmap <leader>M :MarkdownPreviewStop<Return>
 nmap <leader>a %%a
+nmap <leader>I %bi
 nmap <leader>o o<Esc>o
 nmap <leader>O O<Esc>O
 
