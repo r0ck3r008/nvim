@@ -31,6 +31,7 @@ nmap <leader>a %%a
 nmap <leader>I %bi
 nmap <leader>o o<Esc>o
 nmap <leader>O O<Esc>O
+nmap <leader>ko ddko
 
 " Gitgutter
 set updatetime=100
