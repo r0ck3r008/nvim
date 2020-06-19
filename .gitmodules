@@ -31,3 +31,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
+[submodule "bundle/leetcode.vim"]
+	path = bundle/leetcode.vim
+	url = https://github.com/ianding1/leetcode.vim
