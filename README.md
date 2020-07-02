@@ -1,1 +1,1 @@
-VIM Config directory
+NeoVIM Config directory
