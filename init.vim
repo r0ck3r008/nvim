@@ -45,7 +45,7 @@ let g:syntastic_c_config_file='.vim/syntastic_config'
 let g:airline_theme='simple'
 
 " hardtime
-let g:hardtime_default_on = 1
+let g:hardtime_default_on = 0
 
 syntax enable
 set encoding=utf-8
