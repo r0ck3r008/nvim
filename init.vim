@@ -52,7 +52,7 @@ set encoding=utf-8
 set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
 set hlsearch
 set dir=/tmp
-set noesckeys
+" set noesckeys
 
 " Colorscheme
 colorscheme papaya
