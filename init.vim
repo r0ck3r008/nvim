@@ -55,5 +55,6 @@ set dir=/tmp
 " set noesckeys
 
 " Colorscheme
-colorscheme onedark
-" let g:papaya_gui_color='blue'
+colorscheme papaya
+set termguicolors
+let g:papaya_gui_color='blue'
