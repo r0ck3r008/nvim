@@ -31,3 +31,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
+[submodule "extras/onedark.vim"]
+	path = extras/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
