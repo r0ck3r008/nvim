@@ -42,7 +42,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_c_config_file='.vim/syntastic_config'
 
 " airline themes
-let g:airline_theme='simple'
+let g:airline_theme='minimalist'
 
 " hardtime
 let g:hardtime_default_on = 0
