@@ -54,6 +54,8 @@ set hlsearch
 set dir=/tmp
 set cursorline
 set cursorcolumn
+set fdm=syntax
+autocmd FileType python setlocal foldmethod=indent
 " set noesckeys
 
 " Colorscheme
