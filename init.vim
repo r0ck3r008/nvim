@@ -56,6 +56,7 @@ set cursorline
 set cursorcolumn
 set fdm=syntax
 autocmd FileType python setlocal foldmethod=indent
+set list
 " set noesckeys
 
 " Colorscheme
