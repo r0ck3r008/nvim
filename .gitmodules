@@ -34,3 +34,6 @@
 [submodule "extras/onedark.vim"]
 	path = extras/onedark.vim
 	url = https://github.com/joshdick/onedark.vim
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim
