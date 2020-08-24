@@ -47,6 +47,10 @@ let g:airline_theme='minimalist'
 " hardtime
 let g:hardtime_default_on = 0
 
+" Rust syntastic
+let g:syntastic_rust_checkers = ['cargo']
+let g:rustfmt_autosave = 1
+
 syntax enable
 set encoding=utf-8
 set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
