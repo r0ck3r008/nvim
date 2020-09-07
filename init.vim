@@ -21,6 +21,8 @@ Plugin 'iamcco/markdown-preview.nvim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'preservim/nerdcommenter'
 Plugin 'rust-lang/rust.vim'
+Plugin 'racer-rust/vim-racer'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,6 +52,18 @@ let g:hardtime_default_on = 0
 " Rust syntastic
 let g:syntastic_rust_checkers = ['cargo']
 let g:rustfmt_autosave = 1
+"set hidden
+let g:racer_cmd = "/usr/bin/racer"
+let g:racer_experimental_completer = 1
+augroup Racer
+    autocmd!
+    autocmd FileType rust nmap <buffer> gd         <Plug>(rust-def)
+    autocmd FileType rust nmap <buffer> gs         <Plug>(rust-def-split)
+    autocmd FileType rust nmap <buffer> gx         <Plug>(rust-def-vertical)
+    autocmd FileType rust nmap <buffer> gt         <Plug>(rust-def-tab)
+    autocmd FileType rust nmap <buffer> <leader>gd <Plug>(rust-doc)
+    autocmd FileType rust nmap <buffer> <leader>gD <Plug>(rust-doc-tab)
+augroup END
 
 syntax enable
 set encoding=utf-8
