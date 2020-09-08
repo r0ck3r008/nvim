@@ -40,3 +40,9 @@
 [submodule "bundle/vim-racer"]
 	path = bundle/vim-racer
 	url = https://github.com/racer-rust/vim-racer.git
+[submodule "bundle/fzf.vim"]
+	path = bundle/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = https://github.com/junegunn/fzf
