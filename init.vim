@@ -22,6 +22,7 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'racer-rust/vim-racer'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
+Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -39,6 +40,9 @@ nmap <leader>ko ddko
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_c_config_file='.vim/syntastic_config'
+
+" Deoplete
+let g:deoplete#enable_at_startup = 1
 
 " airline themes
 let g:airline_theme='minimalist'
