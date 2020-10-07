@@ -17,9 +17,7 @@ Plugin 'vivien/vim-linux-coding-style'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'takac/vim-hardtime'
 " After each update, run yarn install in git repo of plugin
-Plugin 'iamcco/markdown-preview.nvim'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'preservim/nerdcommenter'
 Plugin 'rust-lang/rust.vim'
 Plugin 'racer-rust/vim-racer'
 Plugin 'junegunn/fzf'
@@ -85,7 +83,6 @@ set nobackup
 set nowritebackup
 set updatetime=100
 set shortmess+=c
-set signcolumn=no
 " set noesckeys
 
 " Colorscheme
