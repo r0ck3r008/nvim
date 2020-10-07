@@ -21,6 +21,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plugin 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
