@@ -18,8 +18,6 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'takac/vim-hardtime'
 " After each update, run yarn install in git repo of plugin
 Plugin 'airblade/vim-gitgutter'
-Plugin 'rust-lang/rust.vim'
-Plugin 'racer-rust/vim-racer'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -54,21 +52,6 @@ let g:hardtime_default_on = 0
 map <C-o> <Esc>:Files!<CR>
 map <m-o> <Esc>:Buffers!<CR>
 
-" Rust syntastic
-let g:syntastic_rust_checkers = ['cargo']
-let g:rustfmt_autosave = 1
-" let g:racer_cmd = "/usr/bin/racer"
-" let g:racer_experimental_completer = 1
-" augroup Racer
-"     autocmd!
-"     autocmd FileType rust nmap <buffer> gd         <Plug>(rust-def)
-"     autocmd FileType rust nmap <buffer> gs         <Plug>(rust-def-split)
-"     autocmd FileType rust nmap <buffer> gx         <Plug>(rust-def-vertical)
-"     autocmd FileType rust nmap <buffer> gt         <Plug>(rust-def-tab)
-"     autocmd FileType rust nmap <buffer> <leader>gd <Plug>(rust-doc)
-"     autocmd FileType rust nmap <buffer> <leader>gD <Plug>(rust-doc-tab)
-" augroup END
-"
 syntax enable
 set encoding=utf-8
 set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
