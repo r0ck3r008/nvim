@@ -43,3 +43,6 @@
 [submodule "bundle/deoplete.vim"]
 	path = bundle/deoplete.vim
 	url = https://github.com/Shougo/deoplete.nvim
+[submodule "bundle/deoplete-go"]
+	path = bundle/deoplete-go
+	url = https://github.com/deoplete-plugins/deoplete-go
