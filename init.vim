@@ -39,6 +39,7 @@ nmap <leader>ko ddko
 " Syntastic config
 let g:syntastic_c_config_file='.vim/syntastic_config'
 let g:syntastic_go_checkers = ['go']
+let g:syntastic_tex_checkers = ['chktex']
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -46,6 +47,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+nmap <leader>c :lclose<Return>
+nmap <leader>n :lnext<Return>
+nmap <leader>p :lprevious<Return>
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
