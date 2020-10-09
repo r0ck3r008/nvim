@@ -37,8 +37,6 @@ nmap <leader>O O<Esc>O
 nmap <leader>ko ddko
 
 " Syntastic config
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
 let g:syntastic_c_config_file='.vim/syntastic_config'
 let g:syntastic_go_checkers = ['go']
 set statusline+=%#warningmsg#
@@ -80,7 +78,6 @@ set nobackup
 set nowritebackup
 set updatetime=100
 set shortmess+=c
-" set noesckeys
 
 " Colorscheme
 colorscheme papaya
