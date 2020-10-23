@@ -32,16 +32,20 @@ nmap <leader>m :MarkdownPreview<Return>
 nmap <leader>M :MarkdownPreviewStop<Return>
 nmap <leader>a %%a
 nmap <leader>I %bi
+" Open with 2 new lines
 nmap <leader>o o<Esc>o
+" Open with 2 new lines above
 nmap <leader>O O<Esc>O
 nmap <leader>ko ddko
-
-" Syntastic config
-let g:syntastic_c_config_file='.vim/syntastic_config'
-let g:syntastic_go_checkers = ['go']
-let g:syntastic_tex_checkers = ['chktex']
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+" Create a vertical split and move to it
+nmap <leader>v <C-w>v<C-w>w<Return>
+" Create a horizontal split and move to it
+nmap <leader>s <C-w>s<C-w>w<Return>
+" Create a terminal here
+nmap <leader>T :term<Return>
+" Create a terminal in a horizontal split and move to it
+nmap <leader>t <leader>s<Esc><leader>TA
+" Syntastic config let g:syntastic_c_config_file='.vim/syntastic_config' let g:syntastic_go_checkers = ['go'] let g:syntastic_tex_checkers = ['chktex'] set statusline+=%#warningmsg# set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
