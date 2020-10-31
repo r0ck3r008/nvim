@@ -23,6 +23,7 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plugin 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 Plugin 'fatih/vim-go'
+Plugin 'justinmk/vim-sneak'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -54,6 +55,11 @@ let g:syntastic_check_on_wq = 0
 nmap <leader>c :lclose<Return>
 nmap <leader>n :lnext<Return>
 nmap <leader>p :lprevious<Return>
+
+" Vim Sneak
+let g:sneak#label = 1
+map f <Plug>Sneak_s
+map F <Plug>Sneak_S
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
