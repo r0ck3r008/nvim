@@ -58,8 +58,6 @@ nmap <leader>p :lprevious<Return>
 
 " Vim Sneak
 let g:sneak#label = 1
-map f <Plug>Sneak_s
-map F <Plug>Sneak_S
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
