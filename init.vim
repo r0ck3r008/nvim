@@ -24,6 +24,7 @@ Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plugin 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 Plugin 'fatih/vim-go'
 Plugin 'justinmk/vim-sneak'
+Plugin 'unblevable/quick-scope'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -58,6 +59,9 @@ nmap <leader>p :lprevious<Return>
 
 " Vim Sneak
 let g:sneak#label = 1
+
+" quick scope
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
