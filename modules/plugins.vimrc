@@ -12,6 +12,7 @@ Plugin 'fatih/vim-go'
 Plugin 'unblevable/quick-scope'
 Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plugin 'neomake/neomake'
+Plugin 'tweekmonster/deoplete-clang2'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -31,6 +32,9 @@ set termguicolors
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#clang#executable = '/usr/bin/clang'
+let g:deoplete#sources#clang#autofill_neomake = 1
+let g:deoplete#sources#clang#std = { 'c': 'c11', 'cpp': 'c++1x', 'cc': 'c++1x'}
 
 "Neomake
 " When writing a buffer (no delay).

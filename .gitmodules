@@ -31,3 +31,6 @@
 [submodule "bundle/neomake"]
 	path = bundle/neomake
 	url = https://github.com/neomake/neomake
+[submodule "bundle/deoplete-clang2"]
+	path = bundle/deoplete-clang2
+	url = https://github.com/tweekmonster/deoplete-clang2
