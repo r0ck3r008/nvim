@@ -70,8 +70,6 @@ set nobackup
 set nowritebackup
 set updatetime=100
 set shortmess+=c
-nmap j gj
-nmap k gk
 
 " Colorscheme
 colorscheme gruvbox
