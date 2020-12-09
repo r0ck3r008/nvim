@@ -28,3 +28,6 @@
 [submodule "extras/gruvbox"]
 	path = extras/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule "bundle/deoplete.nvim"]
+	path = bundle/deoplete.nvim
+	url = https://github.com/shougo/deoplete.nvim

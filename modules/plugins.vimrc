@@ -10,6 +10,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'fatih/vim-go'
 Plugin 'unblevable/quick-scope'
+Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -32,3 +33,6 @@ let g:airline_theme='minimalist'
 colorscheme gruvbox
 set termguicolors
 "let g:papaya_gui_color='blue'
+
+" Deoplete
+let g:deoplete#enable_at_startup = 1
