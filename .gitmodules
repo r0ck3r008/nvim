@@ -34,3 +34,6 @@
 [submodule "bundle/deoplete-clang2"]
 	path = bundle/deoplete-clang2
 	url = https://github.com/tweekmonster/deoplete-clang2
+[submodule "bundle/vimtex"]
+	path = bundle/vimtex
+	url = https://github.com/lervag/vimtex
