@@ -10,15 +10,6 @@
 [submodule "bundle/vim-airline-themes"]
 	path = bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
-[submodule "bundle/vim-linux-coding-style"]
-	path = bundle/vim-linux-coding-style
-	url = https://github.com/vivien/vim-linux-coding-style
-[submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs
-[submodule "bundle/vim-hardtime"]
-	path = bundle/vim-hardtime
-	url = https://github.com/takac/vim-hardtime
 [submodule "extras/vim-theme-papaya"]
 	path = extras/vim-theme-papaya
 	url = https://github.com/henrynewcomer/vim-theme-papaya
@@ -28,24 +19,9 @@
 [submodule "extras/onedark.vim"]
 	path = extras/onedark.vim
 	url = https://github.com/joshdick/onedark.vim
-[submodule "bundle/fzf.vim"]
-	path = bundle/fzf.vim
-	url = https://github.com/junegunn/fzf.vim
-[submodule "bundle/fzf"]
-	path = bundle/fzf
-	url = https://github.com/junegunn/fzf
-[submodule "bundle/deoplete.vim"]
-	path = bundle/deoplete.vim
-	url = https://github.com/Shougo/deoplete.nvim
-[submodule "bundle/deoplete-go"]
-	path = bundle/deoplete-go
-	url = https://github.com/deoplete-plugins/deoplete-go
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
-[submodule "bundle/vim-sneak"]
-	path = bundle/vim-sneak
-	url = https://github.com/justinmk/vim-sneak
 [submodule "bundle/quck-scope"]
 	path = bundle/quck-scope
 	url = https://github.com/unblevable/quick-scope

@@ -13,17 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'vivien/vim-linux-coding-style'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'takac/vim-hardtime'
 " After each update, run yarn install in git repo of plugin
 Plugin 'airblade/vim-gitgutter'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
-Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plugin 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 Plugin 'fatih/vim-go'
-Plugin 'justinmk/vim-sneak'
 Plugin 'unblevable/quick-scope'
 
 " All of your Plugins must be added before the following line
@@ -57,24 +49,8 @@ nmap <leader>c :lclose<Return>
 nmap <leader>n :lnext<Return>
 nmap <leader>p :lprevious<Return>
 
-" Vim Sneak
-let g:sneak#label = 1
-
-" quick scope
-let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
-
-" Deoplete
-let g:deoplete#enable_at_startup = 1
-
 " airline themes
 let g:airline_theme='minimalist'
-
-" hardtime
-let g:hardtime_default_on = 0
-
-" FZF
-map <C-o> <Esc>:Files!<CR>
-map <m-o> <Esc>:Buffers!<CR>
 
 syntax enable
 set encoding=utf-8
