@@ -35,3 +35,14 @@ nmap <leader>s <C-w>s<C-w>w<Return>
 nmap <leader>T :term<Return>
 " Create a terminal in a horizontal split and move to it
 nmap <leader>t <leader>s<Esc><leader>TA
+
+" Use TAB to complete when typing words, else inserts TABs as usual
+function! Tab_Or_Complete()
+  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
+    return "\<C-N>"
+  else
+    return "\<Tab>"
+  endif
+endfunction
+:inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
+:set dictionary="/usr/dict/words"
