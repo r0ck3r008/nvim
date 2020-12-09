@@ -39,3 +39,6 @@ let g:deoplete#sources#clang#std = { 'c': 'c11', 'cpp': 'c++1x', 'cc': 'c++1x'}
 "Neomake
 " When writing a buffer (no delay).
 call neomake#configure#automake('w')
+let g:neomake_c_enabled_makers = ["clang"]
+let g:neomake_cpp_enabled_makers = ["clang"]
+let g:neomake_python_enabled_makers = ["pylint"]
