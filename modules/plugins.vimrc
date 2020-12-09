@@ -11,6 +11,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'fatih/vim-go'
 Plugin 'unblevable/quick-scope'
 Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plugin 'neomake/neomake'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -36,3 +37,7 @@ set termguicolors
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
+
+"Neomake
+" When writing a buffer (no delay).
+call neomake#configure#automake('w')
