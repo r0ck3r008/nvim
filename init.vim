@@ -74,6 +74,6 @@ nmap j gj
 nmap k gk
 
 " Colorscheme
-colorscheme papaya
+colorscheme gruvbox
 set termguicolors
-let g:papaya_gui_color='blue'
+"let g:papaya_gui_color='blue'

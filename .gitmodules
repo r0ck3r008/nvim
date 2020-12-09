@@ -25,3 +25,6 @@
 [submodule "bundle/quck-scope"]
 	path = bundle/quck-scope
 	url = https://github.com/unblevable/quick-scope
+[submodule "extras/gruvbox"]
+	path = extras/gruvbox
+	url = https://github.com/morhetz/gruvbox
