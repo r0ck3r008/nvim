@@ -37,3 +37,6 @@
 [submodule "bundle/vimtex"]
 	path = bundle/vimtex
 	url = https://github.com/lervag/vimtex
+[submodule "bundle/quick-scope"]
+	path = bundle/quick-scope
+	url = https://github.com/unblevable/quick-scope
