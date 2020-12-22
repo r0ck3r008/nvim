@@ -12,6 +12,7 @@ Plugin 'unblevable/quick-scope'
 Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plugin 'neomake/neomake'
 Plugin 'tweekmonster/deoplete-clang2'
+Plugin 'lervag/vimtex'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,3 +42,6 @@ call neomake#configure#automake('w')
 let g:neomake_c_enabled_makers = ["clang"]
 let g:neomake_cpp_enabled_makers = ["clang"]
 let g:neomake_python_enabled_makers = ["pylint"]
+
+" Vimtex
+let g:vimtex_view_general_viewer = 'Zathura'
